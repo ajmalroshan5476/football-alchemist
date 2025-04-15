@@ -22,9 +22,10 @@
 
 ## 🎥 Demo
 
-[![Watch the demo on YouTube](https://youtu.be/h-Ja3g2pKgk)
+[![Watch the demo on YouTube](https://img.youtube.com/vi/h-Ja3g2pKgk/0.jpg)](https://youtu.be/h-Ja3g2pKgk)
 
 > Click the image to watch the demo video on YouTube.
+
 
 ## 🚀 Key Features
 
