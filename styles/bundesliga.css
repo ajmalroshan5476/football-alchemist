@@ -1,0 +1,74 @@
+
+        body {
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 30px 20px;
+            font-family: "Poetsen One", sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-league {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .logo-league img {
+            width: 100%;
+        }
+
+        h1 {
+            color: #f5000f;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        #news-container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .news-card {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-card h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .news-card p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .news-card a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .news-card a:hover {
+            text-decoration: underline;
+        }
+
+        .news-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        #loading {
+            text-align: center;
+            color: #007bff;
+            font-size: 20px;
+            display: none;
+        }

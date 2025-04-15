@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Football Alchemist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+  <style>
+    
+    body {
+      background-color: #01072a;
+      margin: 0;
+      padding: 30px 20px;
+      font-family: "Poetsen One", sans-serif;
+      color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; 
+      text-align: center; 
+    }
+
+    
+    .logo {
+      width: 300px;
+      margin-bottom: 10px;
+    }
+
+    
+    .tagline {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    
+    .intro-text {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0;
+    }
+
+    
+    .button {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #0a1130;
+      color: #fcc414;
+      border: 3px solid #fcc414;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+      font-family: "Poetsen One";
+    }
+
+    .button:hover {
+      background-color: #fcc414;
+      color: #0a1130;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <img src="./logos/FA-Horizontal-Logo.png" alt="Football Alchemist Logo" class="logo" />
+
+  
+  <p class="tagline">It's all about the beautiful game...</p>
+
+  
+  <p class="intro-text">Want the hottest news from your favorite league? Just click below!</p>
+
+  
+  <div class="button-container">
+    <button class="button" onclick="window.location.href='pl.html'">Premier League</button>
+    <button class="button" onclick="window.location.href='laliga.html'">La Liga</button>
+    <button class="button" onclick="window.location.href='bundesliga.html'">Bundesliga</button>
+    <button class="button" onclick="window.location.href='ucl.html'">Champions League</button>
+    <button class="button" onclick="window.location.href='serie-a.html'">Serie A</button>
+    
+  </div>
+
+</body>
+</html>
+
