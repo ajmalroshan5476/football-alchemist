@@ -20,7 +20,11 @@
 - **JavaScript (Vanilla)** – Dynamic behavior, async data fetching  
 - **NewsAPI** – Real-time football news feed
 
----
+## 🎥 Demo
+
+[![Watch the demo on YouTube](https://youtu.be/h-Ja3g2pKgk)
+
+> Click the image to watch the demo video on YouTube.
 
 ## 🚀 Key Features
 
